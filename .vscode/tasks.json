@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Assemble .cas file.",
+            "type": "shell",
+            "command": "casl2 ${file}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run .cas file.",
+            "type": "shell",
+            "command": "comet2 ${cwd}/${fileBasenameNoExtension}.com",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "Assemble .cas file.",
+            ]
+        },
+        {
+            "label": "Run .com file.",
+            "type": "shell",
+            "command": "comet2 ${file}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+  }

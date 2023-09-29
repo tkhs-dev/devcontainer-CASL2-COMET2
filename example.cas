@@ -1,0 +1,6 @@
+TEST    START
+        LAD     GR1,1
+        LAD     GR2,1
+        ADDA    GR1,GR2
+        RET
+        END
