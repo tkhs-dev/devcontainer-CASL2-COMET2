@@ -1,6 +1,14 @@
 # devcontainer for CASL2/COMET2
 大阪大学基礎工学部情報科学科1年後期の情報科学基礎(北村先生 099024)の演習用に、Visual Studio Codeのdevcontainerを使ってCASL2/COMET2の環境を構築するリポジトリです。
 
+## 特徴
+### メリット
+- Dockerを利用するためファイルが散らからない
+- 面倒な環境構築作業を減らせる
+- Visual Studio Codeのタスクを設定しているため、ワンクリックでアセンブルや実行など基本的なコマンドを実行可能
+### デメリット
+- バックグラウンドでDockerが動くため若干重くなる
+
 ## Usage
 ### 必要となるソフトウェア
 - Docker Desktop : [ダウンロード](https://www.docker.com/products/docker-desktop/)
