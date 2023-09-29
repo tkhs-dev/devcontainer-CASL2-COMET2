@@ -1,4 +1,4 @@
-# devcontainer for CASL2/COMET2
+# devcontainer for CASL II/COMET II
 大阪大学基礎工学部情報科学科1年後期の情報科学基礎(北村先生 099024)の演習用に、Visual Studio Codeのdevcontainerを使ってCASL2/COMET2の環境を構築するリポジトリです。
 
 ## 特徴
